@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+    color: rgb(0, 0, 0);
+    background-image: url(file:///C:/Users/murilo.soliveira9/Desktop/aranha.jfif);
+
+}
+
+li{
+    list-style: none;
+}
+
+#container{
+    width: 200px;
+    text-align: center;
+    height: auto;
+    margin: 4px auto;
+}
+
+#calculadora{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 2px;
+    
+}
+
+.input-valor{
+    margin: 8px auto;
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: right;
+    color: #0202ff;
+    padding: 4px;
+    background-color: rgb(245, 4, 4);
+    box-shadow: inset -1px -1px 4px 1px rgb(206, 14, 14);
+}
+
+.key li{
+    width: 135px;
+    height: 60px;
+    border-radius: 3px;
+    color: rgb(146, 13, 13);
+    background-color: #0707a5;
+    cursor: pointer;
+    float: left;
+    margin: 0px -3px 5px 8px;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 0px 3px 1px 0px;
+}
+
+
+
